@@ -3,13 +3,13 @@
 ## Usecase:
 Machine Learning (ML) helps organizations generate revenue, reduce costs, mitigate risk, drive efficiencies, and improve quality by optimizing core business functions across multiple business units such as marketing, manufacturing, operations, sales, finance, and customer service. To accelerate ML value creation from months to actually hours, organizations need ML No-code/Low-code tools. Allow data scientists to share ML models with business analyst efficiently with model lineage. Business analyst can apply their domain knowledge, run trails and use ML models without any machine learning experience. 
 
-In this two-part multi blog series, we showcase architectural patterns on how users can leverage the latest feature where users can bring custom machine learning models built outside SageMaker (BYOM) or models developed in SageMaker to SageMaker Canvas. This integration of model development and sharing creates a tighter collaboration between business and data science teams and lowers time to production. In Part-1 of this blog we show how users building an ML model either using Amazon SageMaker, Amazon Sagemaker Autopilot, Jumpstart, or bring your own model (BYOM) can bring models into the Amazon Sagemaker platform, and then share these models with business analysts. Business analysts can import these models into Amazon Sagemaker Canvas, generate predictions before deploying to production with just few clicks.
+We showcase architectural patterns on how business teams can leverage ML models built anywhere by generating predictions in SageMaker Canvas and achieve effective business outcomes. This integration of model development and sharing creates a tighter collaboration between business and data science teams and lowers time to value. Learn how business teams can leverage existing models built by their data scientists or other departments to solve a business problem(s), instead of re-building the new models in the outside environments. It might be difficult to use ML models built outside due to considerable manual effort and a code change. Amazon Sagemaker Studio provide model sharing feature with SageMaker Canvas. It helps in uniting the efforts of the data scientist, ML and business teams to fulfill common business objectives. Finally, business analysts can import shared models into Amazon SageMaker Canvas, generate predictions before deploying to production with just a few clicks.
 
 Let’s assume the role of a Data Scientist, you are building an end-to-end ML project which includes data preparation, model training, model hosting, model registry and model sharing with business analyst. Optionally, for data preparation and pre- or post-processing steps, you can use SageMaker Data Wrangler and SageMaker Processing Job. 
 Here is the reference architecture, here we are demostrationg third pattern. 
 In this example notebook, we are using Abalone dataset available on Kaggle. The target variable is age of Abalone. 
 
-|![](data/arch-diag.png)|
+|![](data/model-sharing-arch.png)|
 
 
 ## Steps:
