@@ -17,7 +17,7 @@ In this example notebook, we are using Abalone dataset available on Kaggle. The 
 ### Step_1: 
 Login to [Amazon SageMaker Studio](https://docs.aws.amazon.com/sagemaker/latest/dg/studio-launch.html).
 ### Step_2: 
-Clone the [Github repo](https://gitlab.aws.dev/zamsh/sagemaker_model_sharing_using_model_registry_and_canvas.git).
+Clone the [Github repo](https://github.com/aws-samples/ml-model-sharing-using-amazon-sagemaker-model-registry-and-canvas.git).
 ### Step_3: 
 Execute the jupyter notebook => sklearn-regression-linear-SDK-V0.1.ipynb
 ### Step_4: 
